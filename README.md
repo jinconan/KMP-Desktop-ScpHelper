@@ -6,6 +6,8 @@
   <summary>접기/펼치기</summary>
 
 - [Kotlin Multiplatform Development](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)
+  - [Desktop-specific components](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-desktop-components.html)
+- [Material Components](https://m3.material.io/components)
 </details>
 
 ---
@@ -16,3 +18,13 @@
 
 ## 프로젝트 구조
 - [ ] 작성 예정
+
+## 실행
+```bash
+./gradlew desktopRun -DmainClass=com.github.jinconan.scphelper.MainKt --quiet
+```
+
+## 릴리즈
+```bash
+./gradlew package
+```
